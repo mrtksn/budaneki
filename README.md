@@ -25,4 +25,4 @@ Budaneki is pure JavaScript code, no frameworks such as **JQuery**  were used. T
 
 The UI lives entirely in the DOM, on the page.  Firefox specific API usage is limited, therefore should be relatively trivial to port it on other browsers but as I said, the modern browsers have good enough tools making Budaneki obsolete.
 
-Thank you for all the love that Budaneki received.
+#Thank you for all the love that Budaneki received.

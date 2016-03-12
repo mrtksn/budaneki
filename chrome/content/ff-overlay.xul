@@ -1,0 +1,132 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://budaneki/skin/default/style.css" type="text/css"?>
+
+<overlay id="budaneki-overlay" 
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:svg="http://www.w3.org/2000/svg" xmlns:html="http://www.w3.org/1999/xhtml">
+    <script type="application/x-javascript"
+          src="chrome://budaneki/content/overlay.js"/>
+    <script type="application/x-javascript"
+          src="chrome://budaneki/content/lib.js"/>
+
+	<box>
+     		<div id="budaneki-ui-container" style="display: none;" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"></div>	
+	</box>	  
+		  
+    
+    <box><panel id="budaneki-icon-panel" noautohide="true" noautofocus = "true" 
+	context="contentAreaContextMenu" oncontextmenu="event.stopPropagation()" onmousedown="event.stopPropagation();"
+	onmouseover="budanekilib.prepDrawIconMenu(); budanekilib.mouseover(); event.stopPropagation();" onmouseout="event.stopPropagation();"
+	>
+    <!-- icon menu container -->
+		<div id="budaneki-icon-menu-container" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" ></div>	
+	<!-- icon container -->
+		<div id="budaneki-icon-container" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" ></div>
+    
+    </panel>
+    </box>
+	
+    <box><panel id="budaneki-mw-container" noautohide="true" noautofocus = "true" 
+	context="contentAreaContextMenu" oncontextmenu="event.stopPropagation()" onmousedown="event.stopPropagation();"
+	>
+	
+    <!-- top -->
+		<div id="budaneki-mw-top-container" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >
+		<div id="budaneki-mw-top-left"><span id="budaneki-settings-link" style="color: #ababab; cursor: pointer;" onclick="budanekilib.showSettings();"></span></div>
+		<div id="budaneki-mw-top-right">
+		 <div id="budaneki-mw-on-topbtn-container" onclick="budanekilib.switchOnTop(this.firstChild);"><img src="chrome://budaneki/skin/default/ontopbtn.png" /></div>
+		 <img src="chrome://budaneki/skin/default/ms.png" class="budaneki-mw-top-btn" onclick="budanekilib.minMainWindow();" onmouseover="budanekilib.addClass(this,'budaneki-mw-top-btn-over');" onmouseout="budanekilib.removeClass(this,'budaneki-mw-top-btn-over');"/>
+		 <img src="chrome://budaneki/skin/default/fs.png" class="budaneki-mw-top-btn" onclick="budanekilib.resizeMainWindow();" onmouseover="budanekilib.addClass(this,'budaneki-mw-top-btn-over');" onmouseout="budanekilib.removeClass(this,'budaneki-mw-top-btn-over');"/>
+		 <img src="chrome://budaneki/skin/default/close.png" class="budaneki-mw-top-btn" onclick="budaneki.closeMainWindow(true);" onmouseover="budanekilib.addClass(this,'budaneki-mw-top-btn-over');" onmouseout="budanekilib.removeClass(this,'budaneki-mw-top-btn-over');"/>
+		</div>
+		</div>		
+	
+	<table>
+	<tr>
+	 <td width="154px">    
+	    <!-- left menu -->
+		<div id="budaneki-mw-left-container" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >
+		  <div id="budaneki-searchbox-container"></div>
+		  <div id="budaneki-mw-left-providers-container"></div>
+		  <div id="budaneki-mw-sc-menu"></div>		 
+		</div>
+		</td>
+	</tr>
+	<tr>
+	 <td id="budaneki-mw-browser-container" width="570px">
+    	<!-- main window -->
+         <browser id="budaneki-mw-browser" src="http://google.com" type="content" flex="1" width="100%" height="100%" />	
+	 </td>
+	</tr>
+	</table>
+	
+	
+
+
+    
+    </panel>
+    </box>
+
+	    <box><panel id="budaneki-min-container-panel" noautohide="true" noautofocus = "true" 
+	context="contentAreaContextMenu" oncontextmenu="event.stopPropagation()" onmousedown="event.stopPropagation();">
+	 		<div id="budaneki-min-container" class="budaneki-min-container-out" onclick="budanekilib.restoreMainWindow();" onmouseover="budanekilib.removeClass(this,'budaneki-min-container-out');" onmouseout="budanekilib.addClass(this,'budaneki-min-container-out');" xmlns="http://www.w3.org/1999/xhtml" xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >
+		     <table><tr><td>
+			 <img src="chrome://budaneki/skin/default/budaneki-icon.png" />
+			 </td><td>
+			 <span>Budaneki</span>
+			 </td></tr></table>
+			 
+			 
+		
+	    	</div>
+	
+	</panel></box>
+	
+	
+	    <box><panel id="budaneki-log-container" width="400" noautohide="true" noautofocus = "true">
+	<!-- icon container -->
+		<div id="debug-log" style="height: 200px; overflow: auto; float: right;" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >
+		<span>Budaneki Debug LOG:</span>
+		</div>
+      
+    </panel>
+    </box>
+
+	
+    <box><panel id="budaneki-settings-panel"  noautohide="true" context="contentAreaContextMenu" oncontextmenu="event.stopPropagation()" onmousedown="event.stopPropagation();">
+	<!-- icon container -->
+		<div id="budaneki-settings-container"
+        xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >		 
+		<browser id="budaneki-settings-window" src=""  type="chrome" flex="1" width="100%" height="100%" />
+		</div>
+      
+    </panel>
+	
+    </box>
+	<box><panel id="budaneki-share-panel" noautohide="true">
+			<div id="budaneki-share-container"
+        xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >		 
+		<browser id="budaneki-share-browser" src=""  type="chrome" flex="1" width="100%" height="100%" />
+		</div>	
+	</panel></box>
+
+	<box><panel id="budaneki-firstrun-panel" noautohide="true" oncontextmenu="event.stopPropagation()" onmousedown="event.stopPropagation();">
+	
+		<div id="budaneki-firstrun-container"
+        xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >		 
+		<browser id="budaneki-firstrun-browser" src=""  type="chrome" flex="1" width="100%" height="100%" />
+		</div>	
+		
+	</panel></box>	
+	
+    <box>
+	 <browser id="budaneki-fb-window" src="" flex="1" type="content" width="0" height="0" />
+     <browser id="budaneki-tw-window" src="" flex="1" type="content" width="0" height="0" />
+	</box>
+ 
+</overlay>

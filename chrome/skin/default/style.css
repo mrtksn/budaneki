@@ -1,0 +1,314 @@
+﻿#budaneki-icon-container{
+
+ display: box;
+ width: 22px;
+ height: 22px;
+ 
+}
+.budaneki-icon-container-hidden{
+opacity: 0;
+}
+#budanekil{
+ color: green;
+}
+#budaneki-icon-panel{
+border: 0;
+ background: none repeat scroll 0 0 transparent;
+ -moz-appearance: none;
+}
+#budaneki-firstrun-panel{
+width: 300px;
+height: 220px;
+border: 0;
+padding: 5px;
+ background: none repeat scroll 0 0 transparent;
+ -moz-appearance: none;
+}
+#budaneki-icon-menu, #budaneki-icon-menu-clonned{
+overflow: hidden;
+
+width: 150px;
+height: 94px;
+margin: 10px;
+margin-top: 1px;
+z-index: 10;
+background: url('chrome://budaneki/skin/default/blank.png');
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+box-shadow:0px 0px 10px 1px #000000;
+-moz-box-shadow:0px 0px 10px 1px #000000;
+-webkit-box-shadow:0px 0px 10px 1px #000000;
+}
+
+.budaneki-small-icon-button{
+display: block;
+width: 146px;
+height: 28px;
+margin: 0px;
+margin-left: 1px;
+margin-top: 1px;
+padding: 0;
+border-style: solid;
+border-width: 1px;
+border-color: #dbd9be;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+background: url('chrome://budaneki/skin/default/ibuttonbg.png');
+background-repeat: repeat-x;
+color: #6c694b;
+cursor: pointer;
+overflow: hidden;
+}
+.budaneki-small-icon-button span{
+display: block;
+width: 100%;
+
+ font-size: 18px;
+ text-align: center;
+ text-align: center;
+ padding-top: 4px;
+ background-repeat: no-repeat;
+}
+.budanekiiconbuttonselected{
+background: url('chrome://budaneki/skin/default/ibuttonbgh.png');
+color: #1c1b11;
+}
+.budanekiiconbuttonselected span{
+ text-shadow: 0 1px 0 #f1e585;
+}
+
+.budaneki-icon-outbutton{
+width: 150px;
+height: 20px;
+margin: 10px;
+padding: 0;
+border-width: 0px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+box-shadow:0px 0px 10px #000000;
+-moz-box-shadow:0px 0px 10px 1px #000000;
+-webkit-box-shadow:0px 0px 10px 1px #000000;
+}
+.budaneki-icon-outbutton span{
+width: 100%;
+height: 20px;
+display: block;
+padding: 0;
+background-repeat: no-repeat;
+}
+.budaneki-icon-outbutton-over{
+background: url('chrome://budaneki/skin/default/gton.png');
+}
+.budaneki-icon-outbutton-out{
+background: url('chrome://budaneki/skin/default/gtout.png');
+}
+
+
+
+#budaneki-icon-searchbox, #budaneki-icon-searchbox-clonned{
+font-size: 18px;
+width: 146px;
+height: 30px;
+margin: 10px;
+margin-bottom: 0;
+background: #fff;
+border-style: solid;
+border-width: 2px;
+border-color: #c6c4ab; 
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+box-shadow:0px 0px 10px 1px #000000;
+-moz-box-shadow:0px 0px 10px 1px #000000;
+-webkit-box-shadow:0px 0px 10px 1px #000000;
+}
+
+#budaneki-mw-searchbox-clonned{
+font-size: 18px;
+width: 146px;
+height: 30px;
+margin-bottom: 5px;
+border-style: solid;
+border-width: 2px;
+border-color: #c6c4ab;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px; 
+}
+
+
+
+
+#budaneki-mw-container{
+width: 728px;
+height: 322px;
+padding: 2px;
+border: 0;
+background: url('chrome://budaneki/skin/default/mwbg.png');
+
+ -moz-appearance: none;
+}
+
+
+#budaneki-mw-top-container{
+
+width: 100%;
+height: 18px;
+position: relative;
+float: left;
+}
+
+#budaneki-mw-left-container{
+
+background: url('chrome://budaneki/skin/default/blank.png');
+height: 300px;
+width: 154px;
+padding: 2px;
+position: relative;
+float: left;
+overflow: hidden;
+-moz-box-shadow:inset 0px 0px 10px #000000;
+-webkit-box-shadow:inset 0px 0px 10px #000000;
+box-shadow:inset 0px 0px 10px #000000;
+}
+
+#budaneki-mw-sc-menu{
+height: 50px;
+width: 100%;
+}
+
+#budaneki-mw-top-left{
+width: 30px;
+height: 10px;
+position: relative;
+float: left;
+}
+#budaneki-mw-top-right{
+padding: 2px;
+position: relative;
+float: right;
+}
+.budaneki-mw-top-btn{
+opacity: 0.5;
+}
+.budaneki-mw-top-btn-over{
+opacity: 1;
+}
+#budaneki-mw-on-topbtn-container{
+background: url('chrome://budaneki/skin/default/ontopbtnbg.png');
+cursor: pointer;
+width: 60px;
+height: 14px;
+position: relative;
+float: left;
+border-radius:5px;
+-moz-border-radius:5px;
+-moz-box-shadow:inset 0px 0px 10px #000000;
+-webkit-box-shadow:inset 0px 0px 10px #000000;
+margin-right: 10px;
+margin-left: 5px;
+}
+.budaneki-ontopbtn-on{
+float: right;
+}
+
+
+
+#budaneki-min-container-panel{
+border: 0;
+ background: none repeat scroll 0 0 transparent;
+ -moz-appearance: none;
+ padding: 5px;
+}
+#budaneki-min-container{
+border-style: solid;
+border-width: 2px;
+border-color: #c6c4ab;
+background: url('chrome://budaneki/skin/default/budanekiminbg.png');
+border-radius:5px;
+-moz-border-radius: 5px;
+box-shadow:0px 0px 5px 0px #000000;
+-moz-box-shadow:0px 0px 5px 0px #000000;
+cursor: pointer;
+height: 32px;
+}
+.budaneki-min-container-out{
+opacity: 0.5;
+}
+#budaneki-min-container table{
+border: 0;
+padding: 0;
+margin: 0;
+}
+
+
+#budaneki-settings-panel{
+width: 1030px;
+height: 600px;
+padding: 5px;
+border: 0;
+ background: none repeat scroll 0 0 transparent;
+ -moz-appearance: none;
+
+}
+
+#budaneki-firstrun-panel{
+width: 300px;
+height: 300px;
+padding: 5px;
+border: 0;
+ background: none repeat scroll 0 0 transparent;
+ -moz-appearance: none;
+
+}
+
+#budaneki-share-panel{
+width: 480px;
+height: 600px;
+padding: 5px;
+border: 0;
+ background: none repeat scroll 0 0 transparent;
+ -moz-appearance: none;
+
+}
+
+#budaneki-settings-container{
+
+height: 590px;
+background: #f2eec6;
+padding: 5px;
+border-radius:5px;
+-moz-border-radius: 5px;
+box-shadow:0px 0px 5px 0px #000000;
+-moz-box-shadow:0px 0px 5px 0px #000000;
+}
+#budaneki-firstrun-container{
+height: 200px;
+background: #f2eec6;
+padding: 5px;
+border-radius:5px;
+-moz-border-radius: 5px;
+box-shadow:0px 0px 5px 0px #000000;
+-moz-box-shadow:0px 0px 5px 0px #000000;
+}
+#budaneki-share-container{
+width: 200px;
+height: 220px;
+background: #f2eec6;
+padding: 5px;
+border-radius:5px;
+-moz-border-radius: 5px;
+box-shadow:0px 0px 5px 0px #000000;
+-moz-box-shadow:0px 0px 5px 0px #000000;
+}
+
+
+
+
+
+
+
+

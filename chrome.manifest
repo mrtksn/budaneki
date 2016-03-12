@@ -1,0 +1,7 @@
+content   budaneki                 chrome/content/
+skin      budaneki   classic/1.0   chrome/skin/
+locale    budaneki   en-US         chrome/locale/en-US/
+
+
+overlay chrome://browser/content/browser.xul chrome://budaneki/content/ff-overlay.xul
+

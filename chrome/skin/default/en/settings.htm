@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+ 
+<html> 
+<head> 
+  <meta http-equiv="Pragma" content="no-cache"> 
+  <meta http-equiv="Cache-Control" content="no-cache"> 
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8"> 
+</head> 
+<body> 
+
+<style type="text/css">
+h1,h2,h3{
+clear: both;
+margin-top: 10px;
+position: relative;
+}
+
+#budanki-settings input{
+position: relative;
+float: left;
+}
+.budaneki-settings-headline{
+cursor: pointer;
+}
+.option-container{
+border-radius:10px;
+-moz-border-radius: 10px;
+cursor: pointer;
+border-style: solid;
+border-width: 2px;
+border-color: #dbd9be;
+position: relative;
+float: left;
+padding: 5px;
+
+}
+.option-container-selected{
+background: #a0ec4e;
+}
+
+.option-container img{
+position: relative;
+float: left;
+}
+.option-container span{
+position: relative;
+float: right;
+font-size: 18px;
+}
+.option-container p{
+width: 150px;
+height: 100px;
+
+}
+.option-button{
+position: relative;
+float: left;
+height: 18px;
+
+border-radius:10px;
+-moz-border-radius: 10px;
+background: #f7ffb2;
+padding: 3px;
+border-style: solid;
+border-width: 2px;
+border-color: #dbd9be;
+
+}
+.option-button-selected{
+background: #a0ec4e;
+}
+.option-button span{
+position: relative;
+float: left;
+
+}
+.option-button img{
+position: relative;
+float: right;
+margin: 2px;
+
+}
+#providers-list{
+
+overflow: auto;
+}
+
+</style>
+
+
+
+<table width="1000px"><tr>
+<td width="500px">
+
+<h2>Language:</h2>
+<div class="section" id="selectlang"><div class="option-container"><img src="chrome://budaneki/skin/default/tr.png" /> <span>Türkçe</span></div><div class="option-container"><img src="chrome://budaneki/skin/default/uk.png" /><span>English</span></div></div>
+
+
+
+<h2><img src="chrome://budaneki/skin/default/gtl.png" style="padding-top: 10px;"/></h2>
+<div class="section">
+<div class="option-container"><h3>Translate the selected text into following language:</h3>
+<div id="budaneki-gtlang"><a href="#" class="option-button"></a></div>
+</div>
+</div>
+
+</td>
+<td width="500px" style="vertical-align: baseline;">
+
+<h2>Working mode:</h2>
+ <div class="section" id="iconmodeselect">
+ <div class="option-container iconmode" id="iconmode-1"><h3>Normal:</h3><p>Select some text and Budaneki will appear immediately</p></div>
+ <div class="option-container iconmode" id="iconmode-2"><h3>Ghost:</h3><p>Budaneki will stay invisible until you move your cursor where normally budaneki should appear</p></div>
+ <div class="option-container iconmode" id="iconmode-3"><h3>Hidden:</h3><p>Budaneki will stay invisible until you press CTRL button twice</p></div>
+</div>
+
+<h2>Providers:</h2>
+<div class="section">
+<div class="option-container">
+ <div id="providers-list"></div>
+ <h3>Add provider:</h3>
+ <input type="text" value="title" onclick="this.value='';" id="budaneki-addprovider-title" />
+ <input type="text" value="url" onclick="this.value='';" id="budaneki-addprovider-url"  />
+ <input type="button" value="add" id="budaneki-addprovider-button"/>
+</div>
+</div>
+
+</td>
+</tr></table>
+<input id="close-settings-button" type="button" value="close" style="position: relative; float: right;"/>
+<a href="#" class="option-button" id="provider-item-sample" style="display: none;"><span ></span><img src="chrome://budaneki/skin/default/close.png" /></a>
+
+</body>
+</html>
+

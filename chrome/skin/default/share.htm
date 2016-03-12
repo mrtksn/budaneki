@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+ 
+<html> 
+<head> 
+  <meta http-equiv="Pragma" content="no-cache"> 
+  <meta http-equiv="Cache-Control" content="no-cache"> 
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8"> 
+</head> 
+<body> 
+
+<style type="text/css">
+body{
+color: #44501d;
+}
+h1,h2,h3{
+clear: both;
+margin-top: 10px;
+position: relative;
+
+}
+h1{
+font-size: 16px;
+}
+.sec{
+font-style: italic;
+}
+img{
+cursor: pointer;
+}
+.exp{
+font-style: italic;
+padding: 4px;
+}
+.btn{
+position: relative;
+float: left;
+padding: 4px;
+height: 26px;
+font-size: 20px;
+display: block;
+border-radius:5px;
+-moz-border-radius: 5px;
+box-shadow:0px 0px 2px 0px #000000;
+-moz-box-shadow:0px 0px 2px 0px #000000;
+text-shadow: #000000 1px 1px 1px;
+}
+.active{
+color: #fff1b7;
+background: #6cb800;
+}
+.passive{
+background: #b7b7b7;
+color: #fff;
+}
+#sharebuttons{
+clear: both;
+padding: 5px;
+}
+#results{
+background: #fffce2;
+border-radius:5px;
+-moz-border-radius: 5px;
+width: 96%;
+padding: 5px;
+position: relative;
+float: left;
+clear: both;
+}
+.visible{
+display: block;
+}
+.hidden{
+display: none;
+}
+.close{
+position: relative;
+float: right;
+
+}
+.status{
+position: relative;
+float: left;
+}
+#resultlabels{
+position: relative;
+float: left;
+width: 345px;
+}
+</style>
+
+
+         <img src="chrome://budaneki/skin/default/budanekilogo.png" />
+		 <h1>Budaneki'ye destek olmak istermisiniz?  </h1>
+		 <span class="exp">Budaneki'yi <strong>facebook</strong> ve <strong>twitter</strong>'da asagidaki butona tiklayarak otomatik olarak paylasabilirsiniz!</span>
+          <div id="sharebuttons" class="visible">
+		  <a id="share" class="btn active" style="width: 300px; margin-left: 0;" href="#">Facebook ve Twitter'da aninda paylas</a>
+		  <a id="cancel" class="btn passive" style="width: 70px; margin-left: 10px;" href="#">vazgec</a>
+		  </div>
+		  
+		  <div id="results" class="hidden">
+		   <div id="resultlabels"> 
+			<div class="status"><strong>Facebook:</strong><span id="fbresult"> Paylasiliyor...</span><span class="hidden" id="fbresultok"> Tamam :)</span> <span class="hidden" id="fbresulterr"> Olmadi, acilan sekmeden paylasabilirsiniz</span></div>
+		    <div class="status" style="clear: left;"><strong>Twitter:</strong><span id="twresult"> Paylasiliyor...</span><span  class="hidden" id="twresultok"> Tamam</span><span  class="hidden" id="twresulterr"> Olmadi, acilan sekmeden paylasabilirsiniz</span></div>
+		   </div>	
+		   <a id="close" class="btn passive" style="width: 60px; margin-left: 10px;" href="#">Tamam</a>
+		  </div>
+
+</body>
+</html>

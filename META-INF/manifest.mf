@@ -1,0 +1,207 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y54JKDwgF9q9UPsG5/aTYA==
+SHA1-Digest: +Do9yxP5LnvkU5io7HQkMKeEd6U=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JhQU1dM7JSumTOZZKCt1SQ==
+SHA1-Digest: YCHioAOWzGpNTG2QO3090tnPEqQ=
+
+Name: chrome/content/about.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KIsrHimIo50ZROatOsR1Gg==
+SHA1-Digest: Vh9DsfBDx+LIs9j0cTA9YE9X3KA=
+
+Name: chrome/content/ff-overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qPzFjocee0oMx7IvAuHGfA==
+SHA1-Digest: P5BHYtBZkimdZP1ldLwIjiL0owA=
+
+Name: chrome/content/lib.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Dae5y6C7YVsF++gVGRo4VQ==
+SHA1-Digest: VtBET+Y2ynUmXnksGls/inx+74s=
+
+Name: chrome/content/overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6xsxTye3WD1umJBivy7RgQ==
+SHA1-Digest: 09qDnnTSURzw/I+ON2mNseYEA6k=
+
+Name: chrome/skin/default/blank.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eYPt/Hd4V9NlIojTOnFXwQ==
+SHA1-Digest: /hguyxJnS3GMExlMtG/myQShp/Y=
+
+Name: chrome/skin/default/budaneki-icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: chWbJb+iL3GMcpg5H6BhwA==
+SHA1-Digest: BNPQ3+OORwvL8BoE9nSRhw15E6E=
+
+Name: chrome/skin/default/budanekilogo.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0z1CQSUpxd7naJ33AKA/4w==
+SHA1-Digest: rRrz8blFSDl+79VKW8OqqtqOFU8=
+
+Name: chrome/skin/default/budanekiminbg.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fgTueWWnDQIeldLzwVSf0g==
+SHA1-Digest: 7PyOVZfnPTFoiplTiZ25W05l1IY=
+
+Name: chrome/skin/default/close.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NwsLlaWf9glu8nwrde9jZg==
+SHA1-Digest: UpLBzdTGjLLOuWriWcw4IZ2CK9I=
+
+Name: chrome/skin/default/firstrun-lang.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LaBDRWusG5xhJ6KSkZxUtg==
+SHA1-Digest: d22AhKoNR4dARcEg8wT4eudp28I=
+
+Name: chrome/skin/default/fs.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jVAaxoOLWvjpLZUnAPLxGQ==
+SHA1-Digest: ERcYt2xlHdMdxJiwNxWMg2/R4Ds=
+
+Name: chrome/skin/default/gt.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nrOa9XdvKaAkpnz12mPV+w==
+SHA1-Digest: EeXkjSS/RCzRlhYgr1rtWhL/BuY=
+
+Name: chrome/skin/default/gtl.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7neFVtXqvwr6jTn3x6d7pw==
+SHA1-Digest: ljjph01VQahLML4WEqyp0tPHtaE=
+
+Name: chrome/skin/default/gtlsmall.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tl5QzWn1/vqGfT7XgtW6ug==
+SHA1-Digest: ee5zQaT1iy39zVG453p+Usoo/h0=
+
+Name: chrome/skin/default/gton.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wT5zcvjjTdmVry/AzPlUzg==
+SHA1-Digest: JH2PjeS/bp4JtlQBZr3Npn7Ilb0=
+
+Name: chrome/skin/default/gtout.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oCcopf4jC1Qn8EgNGrDmLQ==
+SHA1-Digest: gj67UOzyfdYrO9jTMx+U9cEclRw=
+
+Name: chrome/skin/default/ibuttonbg.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vhPbH9j1jEovsdRB4qvCag==
+SHA1-Digest: gV5kme0JKDZJkHszQdf5+MIXm9w=
+
+Name: chrome/skin/default/ibuttonbgh.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DxYaUApcWaiydYlfI7KrZg==
+SHA1-Digest: 5yQZLFZH98x5ZTbfoJk+/bjh+Ss=
+
+Name: chrome/skin/default/ms.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: euCJpijZkmUqq6i/CrI82w==
+SHA1-Digest: l0bEB7HWo+jvEpkm+ctepOpuXto=
+
+Name: chrome/skin/default/mwbg.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p3Te32ZZDBvMSEiFraTZmQ==
+SHA1-Digest: TP6nyT3UAXks1W92OohZNe6D02g=
+
+Name: chrome/skin/default/ontopbtn.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bA+iMHsnm6Vr+U1qfGReJg==
+SHA1-Digest: OLD+o8iDc/nNK+BNxQfDuMHMDtQ=
+
+Name: chrome/skin/default/ontopbtnbg.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: C0JoEbQDc2Z/5thDvSSG2Q==
+SHA1-Digest: q/fcW3mOcdS+hLTtXKvFAUlW2P8=
+
+Name: chrome/skin/default/outbox-b-g.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BpZSENuViBIjLI4yS2flXA==
+SHA1-Digest: Czu6yRNaJKh0xaa/0H1WURoEWpo=
+
+Name: chrome/skin/default/settings.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XybNg49hM/WYBOFwH+2dJA==
+SHA1-Digest: 5ggRoz2eq2jUx9HdFsm+MmRD9Kw=
+
+Name: chrome/skin/default/share.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vNvHf2geEj0iVbeUc187nQ==
+SHA1-Digest: fA3WKmj1zTKBAPimNNUJg3ig0rM=
+
+Name: chrome/skin/default/small-icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Xvj0chvSonE9AeiaQk8Ebw==
+SHA1-Digest: 0LYpmtqag19IH/GzfZ0gKZcWoYM=
+
+Name: chrome/skin/default/style.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zW+5Zfur5s1CI0eHkVpc1g==
+SHA1-Digest: MRiYRF3mx1dRGsPb/nahy33I8Zo=
+
+Name: chrome/skin/default/tr.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VDvoknh31GijZUJRmb5cjg==
+SHA1-Digest: tMcXISgsnqHLV1iK10l+7Xn9bDM=
+
+Name: chrome/skin/default/ui.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FKuqGiCS6/tgK52PKVjiMw==
+SHA1-Digest: nDnnSPxtFh6Ski+ih9rKikLO6To=
+
+Name: chrome/skin/default/uk.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DS4wSV8qhUqIlfczwr6sJw==
+SHA1-Digest: mLzBS2510LWv6las9y5tSZCLRro=
+
+Name: chrome/skin/default/en/firstrun-lang.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LaBDRWusG5xhJ6KSkZxUtg==
+SHA1-Digest: d22AhKoNR4dARcEg8wT4eudp28I=
+
+Name: chrome/skin/default/en/settings.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hJFDd1GJhNVKRc0j+jC83w==
+SHA1-Digest: Uj87KFvWR+k7/i9fMp+mCQ6mxZ8=
+
+Name: chrome/skin/default/en/share.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ulqEYzNM5ibF3BDobDbicA==
+SHA1-Digest: MJDKkg9BVJ/JUFDLB2K5Oq6mWp8=
+
+Name: chrome/skin/default/en/ui.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FKuqGiCS6/tgK52PKVjiMw==
+SHA1-Digest: nDnnSPxtFh6Ski+ih9rKikLO6To=
+
+Name: chrome/skin/default/tr/firstrun-lang.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LaBDRWusG5xhJ6KSkZxUtg==
+SHA1-Digest: d22AhKoNR4dARcEg8wT4eudp28I=
+
+Name: chrome/skin/default/tr/settings.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: c9o474m6yAPUm3j5FH46Ng==
+SHA1-Digest: jfyvAOYjYfjqdJE9+SJiDBfJdL8=
+
+Name: chrome/skin/default/tr/share.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GE1sAxgSmHnUlrT7jTlDlg==
+SHA1-Digest: b2sJjG0IpRIkSVr/lwzEzDyjPzE=
+
+Name: chrome/skin/default/tr/ui.htm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yhVSL/JPUIzW8ocIGenH/Q==
+SHA1-Digest: XUvKYRbu83HAJezVz+M93X+xq9A=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4Cg7R18UX1FcK6CCHSKleA==
+SHA1-Digest: hSN2yURSrO/8f9g3fnJ8orAkfYE=
+

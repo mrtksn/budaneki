@@ -13,7 +13,7 @@ What Budaneki did was to open a small overlay frame over the current website and
 The latest version of Budaneki also supported on the page translation with Google Translate. You select a text, click a button and that text is instantly replaced with the translated version. 
 
 
-Most of these features are default functionality in Google Chrome or Safari but back in the day Budaneki was one of the first to explore these concepts. 
+Today most of these features are default functionality in Google Chrome or Safari but back in the day Budaneki was one of the first to explore these concepts. 
 
 It was especially popuplar among non-native English speakers who are frequent on the English language websites. 
 

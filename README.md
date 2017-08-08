@@ -1,8 +1,8 @@
-##What is Budaneki?
+## What is Budaneki?
 
 Budaneki is a **Firefox** extension that I created in *2009* and stopped development in *2011*, therefore new versions of Firefox are no longer supported.  
 
-##O.K. It's a Firefox extension, but what it does?
+## O.K. It's a Firefox extension, but what it does?
 
 The idea was to get a definition of any word on any webpage but it's not yet another dictionary extension. 
 
@@ -19,10 +19,10 @@ It was especially popuplar among non-native English speakers who are frequent on
 
 At it's height Budaneki reached almost 100K users and was among the TOP10 most highly rated extensions. 
 
-##Technicalities 
+## Technicalities 
 
 Budaneki is pure JavaScript code, no frameworks such as **JQuery**  were used. This is because I wanted to keep the memory footprint slim as possible. 
 
 The UI lives entirely in the DOM, on the page.  Firefox specific API usage is limited, therefore should be relatively trivial to port it on other browsers but as I said, the modern browsers have good enough tools making Budaneki obsolete.
 
-#Thank you for all the love that Budaneki received.
+# Thank you for all the love that Budaneki received.
